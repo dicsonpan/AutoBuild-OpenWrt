@@ -75,6 +75,7 @@ jobs:
     #添加 OpenClash 源码
 
     - name: OpenClash
+      working-directory: ./openwrt
       run: |
         mkdir package/luci-app-openclash
         cd package/luci-app-openclash
